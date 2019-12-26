@@ -19,7 +19,7 @@ synapse_weights = 2 * numpy.random.random((3, 1)) - 1
 
 print('Synapse weights: {0}'.format(synapse_weights))
 
-for iteration in range(50000):
+for iteration in range(500000):
     input_layer = inputs
 
     outputs = sigmoid(numpy.dot(input_layer, synapse_weights))
